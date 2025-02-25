@@ -7,17 +7,13 @@ const userRoute = require('./routes/User')
 const examQuestionsRoute = require('./routes/ExamQuestions')
 const userExamsRoute = require('./routes/UserExams')
 const examRoute = require('./routes/Exam')
+const router = require('./routes/User')
 require('dotenv').config()
 
 
 
-app.use(cors(
-    {
-        origin: ["https://quiz-master-game-1.vercel.app"],
-        methods: ["POST", "GET"],
-        credentials: true
-    }
-))
+app.use(cors())
+app.use('/api', router)
 app.use(bodyParser.json())
 
 mongoose.connect(process.env.DATABASE_ACCESS).then(data => {
