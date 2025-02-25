@@ -13,7 +13,7 @@ require('dotenv').config()
 
 app.use(cors(
     {
-        origin: [""],
+        origin: ["https://quiz-master-game-1.vercel.app/"],
         methods: ["POST", "GET"],
         credentials: true
     }
