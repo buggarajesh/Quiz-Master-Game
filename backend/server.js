@@ -9,13 +9,25 @@ const userExamsRoute = require('./routes/UserExams')
 const examRoute = require('./routes/Exam')
 require('dotenv').config()
 
-app.use(cors())
+
+
+app.use(cors(
+    {
+        origin: [""],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+))
 app.use(bodyParser.json())
 
 mongoose.connect(process.env.DATABASE_ACCESS).then(data => {
     console.log("connected to DB")
 }).catch(error => {
     console.log(error)
+})
+
+app.get("/", (req,res) => {
+    res.json("hello");
 })
 
 app.use('/users', userRoute)
