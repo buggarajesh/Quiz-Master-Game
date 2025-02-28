@@ -13,6 +13,8 @@ Each level consists of **10 multiple-choice questions** covering various topics.
 ![Screenshot 2025-02-28 114536](https://github.com/user-attachments/assets/2a109d0b-0588-44d9-9e35-f9ed8bfb1942)
 ## Dashbord to create new game 
 ![Screenshot 2025-02-28 114552](https://github.com/user-attachments/assets/12f3cd09-986e-4141-82e0-c296b0f26f8b)
+## Status Report
+![Screenshot 2025-02-28 150411](https://github.com/user-attachments/assets/7cced6c9-e7b6-4ea3-bf3c-fc0a3cdda098)
 ## Questions with Score and timer
 ![Screenshot 2025-02-28 114620](https://github.com/user-attachments/assets/393c76b6-54de-4d9f-9e9e-abfe3a157d4d)
 ## Result Grade
